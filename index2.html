@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+
+.red{
+    width: 900px;
+    height: 600px;
+    background-color: #BA0C2F;
+    position: relative;
+}
+
+.horizontal{
+    width: 900px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    top: 250px;
+   
+}
+div.vertical{
+    background-color: white;
+    width: 70px;
+    height: 600px;
+    position: relative;
+    left: 250px;
+    bottom: 85px;
+    
+}
+.horizontal > div{
+    background-color: #00205B;
+    position: relative;
+    width: 900px;
+    height: 50px;
+    top: 10px;
+    z-index: 1;
+}
+
+.vertical > div{
+    background-color: #00205B;
+    position: relative;
+    width: 50px;
+    height: 600px;
+    left: 10px;
+}
+
+  </style>
+</head>
+
+
+
+<body>
+  <div class="red">
+    <div class="horizontal">
+      <div>
+        <div>
+            <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="vertical">
+        <div>
+           <p></p> 
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>
